@@ -1,0 +1,5 @@
+1 - For: Es un bucle que permite repetir código varias veces y tiene un comando de frenado.
+    && : Es un operador lógico para 'and' (y) , en donde compara dos proposiciones a nivel booleano, y si ambas son verdaderas, entonces el resultado es verdadero.
+         Si alguna de las dos proposiciones no es verdadera, el resultado siempre será falso.
+    || : Es el operador lógico de 'or' (o), y funciona de forma opuesta. Si las dos operaciones son falsas, el resultado da falso, y si cualquier proposición es verdadera,
+         el resultado será verdadero.

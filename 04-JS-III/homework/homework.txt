@@ -1,0 +1,4 @@
+Array: Su traducción literal es arreglo, que corresponde a una lista de elementos organizados en forma de matriz.
+       Pueden contener todo tipo de datos, incluyendo funciones e inclusive otras matrices. Hay que tener en
+       cuenta que las posiciones dentro de la matriz van desde 0 y no desde 1. 
+       

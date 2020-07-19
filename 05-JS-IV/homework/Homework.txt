@@ -1,0 +1,15 @@
+1 - Un objeto es un contenedor de múltiples datos de una misma cosa. Cada categoría de información que puede
+    contener se le llama propiedad, o "llave", que tiene un valor correspondiente. Los objetos usan pares de clave:valor, donde 
+    clave es el identificador (o propiedad), y valor es lo que se quiere guardar en esa clave. Los pares de clave:valor deben estar 
+    separados por una coma y sin usar ;. Aunque varias claves pueden tener el mismo valor, no pueden haber claves con el mismo 
+    nombre repetidas.
+    Los métodos son las funciones que se establecen dentro de un objeto, por lo que en general a las funciones se les llama método.
+    Con el bucle for ... in, podemos iterar los valores dentro de un objeto.  Hay que usar ese método por lo que un objeto no tiene 
+    índices numéricos como las matrices, sino propiedades. Se puede usar así:  
+    for ( let propiedad in objeto ){ console.log(propiedad); console.log(objeto[propiedad]);}
+    Con lo anterior logramos obtener primero el nombre de cada propiedad, y luego su respectivo valor.
+    Se puede utilizar la notación de brackets, seguida del nombre del objeto como en los arreglos, en donde se coloca el nombre de  
+    la propiedad entre comillas, para obtener su valor o para asignarle un valor con =. Se puede utilizar la notación con ., en donde 
+    solo hay que colocar . después del nombre del objeto y se escribe la propiedad, para de igual forma obtener el valor o asignarlo.  
+    Hay que resaltar que hay que tener cuidado con la notación de brackets, ya que si dentro de las llaves no colocamos el string entre
+    comillas podemos estar llamando es a una variable. 
